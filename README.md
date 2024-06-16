@@ -291,6 +291,35 @@ log_reg.fit(X_train, y_train)
 # Make predictions
 predictions = log_reg.predict(X_test)
 ```
+```
+                             OLS Regression Results                            
+==============================================================================
+Dep. Variable:             Pain_level   R-squared:                       0.091
+Model:                            OLS   Adj. R-squared:                  0.071
+Method:                 Least Squares   F-statistic:                     4.633
+Date:                Sun, 16 Jun 2024   Prob (F-statistic):             0.0121
+Time:                        18:20:27   Log-Likelihood:                -370.63
+No. Observations:                  96   AIC:                             747.3
+Df Residuals:                      93   BIC:                             754.9
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept     -0.3879      8.642     -0.045      0.964     -17.549      16.773
+GSES          -0.8306      2.200     -0.378      0.707      -5.200       3.538
+stress_sum     0.5117      0.201      2.548      0.012       0.113       0.911
+==============================================================================
+Omnibus:                       47.356   Durbin-Watson:                   1.782
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              109.472
+Skew:                           1.919   Prob(JB):                     1.69e-24
+Kurtosis:                       6.554   Cond. No.                         140.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+```
+
 
 ## Support Vector Machine (SVM)
 
@@ -386,6 +415,11 @@ model.fit(X_train, y_train, epochs=10, batch_size=32, validation_split=0.2)
 # Make predictions
 predictions = model.predict(X_test)
 ```
+
+
+![image](https://github.com/ArtificialIntelligenceResearch/Emotion-Focused-Coping-Style-For-Lung-Cancer/assets/56669333/8b1235c0-2979-413c-b80f-aff3468f5cd5)
+
+
 
 ## Conclusion
 
