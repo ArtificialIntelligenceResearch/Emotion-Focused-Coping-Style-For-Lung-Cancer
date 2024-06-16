@@ -30,37 +30,37 @@ The results highlight the importance of psychological interventions aimed at imp
 ```
 Emotion-Focused-Coping-Style-For-Lung-Cancer/
 │
-├── README.md
-├── data/
-│   ├── raw/
-│   ├── processed/
-│   ├── README.md
-├── src/
-│   ├── __init__.py
-│   ├── data_preprocessing.py
-│   ├── model_training.py
-│   ├── evaluation.py
-│   ├── utils.py
-│   ├── README.md
-├── notebooks/
-│   ├── data_exploration.ipynb
-│   ├── model_analysis.ipynb
-│   ├── README.md
-├── docs/
-│   ├── overview.md
-│   ├── data_description.md
-│   ├── model_architecture.md
-│   ├── evaluation_metrics.md
-│   ├── setup_guide.md
-│   ├── usage_guide.md
-│   ├── contributing.md
-│   ├── LICENSE.md
-│   ├── acknowledgments.md
-│   ├── troubleshooting.md
-├── requirements.txt
-├── setup.py
-├── .gitignore
-└── LICENSE
+├── 📄 README.md
+├── 📁 data/
+│   ├── 📁 raw/
+│   ├── 📁 processed/
+│   ├── 📄 README.md
+├── 📁 src/
+│   ├── 📄 __init__.py
+│   ├── 📄 data_preprocessing.py
+│   ├── 📄 model_training.py
+│   ├── 📄 evaluation.py
+│   ├── 📄 utils.py
+│   ├── 📄 README.md
+├── 📁 notebooks/
+│   ├── 📄 data_exploration.ipynb
+│   ├── 📄 model_analysis.ipynb
+│   ├── 📄 README.md
+├── 📁 docs/
+│   ├── 📄 overview.md
+│   ├── 📄 data_description.md
+│   ├── 📄 model_architecture.md
+│   ├── 📄 evaluation_metrics.md
+│   ├── 📄 setup_guide.md
+│   ├── 📄 usage_guide.md
+│   ├── 📄 contributing.md
+│   ├── 📄 LICENSE.md
+│   ├── 📄 acknowledgments.md
+│   ├── 📄 troubleshooting.md
+├── 📄 requirements.txt
+├── 📄 setup.py
+├── 📄 .gitignore
+└── 📄 LICENSE
 ```
 
 
@@ -68,15 +68,31 @@ Emotion-Focused-Coping-Style-For-Lung-Cancer/
 
 ## Table of Contents
 
-- [Project Overview](#project-overview)
-- [Data](#data)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Scripts and Notebooks](#scripts-and-notebooks)
-- [Documentation](#documentation)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
+
+- 📄 [Project Overview](#project-overview)
+- 📁 [Data](#data)
+  - 📂 [Data Structure](#data-structure)
+- 💻 [Installation](#installation)
+- 🚀 [Usage](#usage)
+  - 📜 [Data Preprocessing](#data-preprocessing)
+  - 🧠 [Model Training](#model-training)
+  - 📊 [Evaluation](#evaluation)
+- 📚 [Scripts and Notebooks](#scripts-and-notebooks)
+- 📖 [Documentation](#documentation)
+  - 📄 [Project Overview](docs/overview.md)
+  - 📄 [Data Description](docs/data_description.md)
+  - 📄 [Model Architecture](docs/model_architecture.md)
+  - 📄 [Evaluation Metrics](docs/evaluation_metrics.md)
+  - 📄 [Setup Guide](docs/setup_guide.md)
+  - 📄 [Usage Guide](docs/usage_guide.md)
+  - 📄 [Contributing](docs/contributing.md)
+  - 📄 [License](docs/LICENSE.md)
+  - 📄 [Acknowledgments](docs/acknowledgments.md)
+  - 📄 [Troubleshooting](docs/troubleshooting.md)
+- 🤝 [Contributing](#contributing)
+- 📄 [License](#license)
+- 🙏 [Acknowledgments](#acknowledgments)
+
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/yourusername/Emotion-Focused-Coping-Style-For-Lung-Cancer)
 ![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/Emotion-Focused-Coping-Style-For-Lung-Cancer)
@@ -107,18 +123,20 @@ The data used in this project is sourced from clinical studies involving lung ca
 
 For more details on the data, refer to the [data description documentation](docs/data_description.md).
 
-## Installation
+Sure, here's the setup part with GitHub emojis for better visual appeal and readability:
+
+### Installation
 
 To get started with this project, follow these steps:
 
-### Step 1: Clone the Repository
+### :one: Step 1: Clone the Repository
 
 ```bash
 git clone https://github.com/yourusername/Emotion-Focused-Coping-Style-For-Lung-Cancer.git
 cd Emotion-Focused-Coping-Style-For-Lung-Cancer
 ```
 
-### Step 2: Set Up a Virtual Environment
+### :two: Step 2: Set Up a Virtual Environment
 
 It's recommended to use a virtual environment to manage dependencies. You can create one using `venv`:
 
@@ -127,7 +145,7 @@ python3 -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 ```
 
-### Step 3: Install Dependencies
+### :three: Step 3: Install Dependencies
 
 Install the required packages using `pip`:
 
@@ -135,35 +153,37 @@ Install the required packages using `pip`:
 pip install -r requirements.txt
 ```
 
-### Step 4: Install Additional Libraries
+### :four: Step 4: Install Additional Libraries
 
 If specific libraries like TensorFlow, PyTorch, or Keras need to be installed, follow the instructions below:
 
-#### TensorFlow
+#### :heavy_check_mark: TensorFlow
 
 ```bash
 pip install tensorflow==2.8
 ```
 
-#### Keras
+#### :heavy_check_mark: Keras
 
 ```bash
 pip install keras==2.8
 ```
 
-#### PyTorch
+#### :heavy_check_mark: PyTorch
 
 ```bash
 pip install torch==1.11 torchvision==0.12
 ```
 
-### Step 5: Verify the Installation
+### :five: Step 5: Verify the Installation
 
 Ensure all necessary libraries are installed correctly by running:
 
 ```bash
 python -c "import tensorflow as tf; import keras; import torch; import sklearn; import numpy"
 ```
+
+For detailed installation instructions, refer to the [setup guide documentation](docs/setup_guide.md).
 
 For detailed installation instructions, refer to the [setup guide documentation](docs/setup_guide.md).
 
@@ -377,4 +397,6 @@ For detailed explanations and theoretical backgrounds, refer to the following re
 - [Random Forest](https://scikit-learn.org/stable/modules/ensemble.html#forest)
 - [Gradient Boosting](https://scikit-learn.org/stable/modules/ensemble.html#gradient-boosting)
 - [Neural Networks](https://www.tensorflow.org/guide/keras/sequential_model)
+
+
 
