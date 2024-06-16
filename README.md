@@ -19,13 +19,8 @@
 
 ### This repository contains the code and data for analyzing emotion-focused coping styles in patients with lung cancer.
 
-This study examined the relationships between coping styles, stress levels, and pain levels in lung cancer patients, and whether these relationships were moderated by place of residence (small town vs large city). A sample of 97 lung cancer patients completed questionnaires measuring coping styles (Stress Coping Inventory), perceived stress levels (Perceived Stress Scale), and pain levels (Short Form McGill Pain Questionnaire).
+The study investigated the relationship between coping styles, stress levels, and pain levels in lung cancer patients, and whether these relationships were influenced by their place of residence. Results showed that emotion-focused coping style was positively associated with higher stress and pain levels, while task-focused coping style was negatively associated with stress levels. Stress levels fully mediated the relationship between emotion-focused coping and pain, with the associations being stronger for patients residing in small towns compared to larger cities. The findings suggest that emotion-focused coping raises stress levels in lung cancer patients, which in turn increases pain experiences, particularly among those from rural areas and small towns. Task-oriented coping is linked to lower stress, and stress acts as a key mechanism explaining how different coping strategies influence pain perception in lung cancer. The study emphasizes the importance of psychological interventions to improve coping skills, particularly for rural patients with limited access to medical resources and support. Further longitudinal research is needed to better understand the impacts of residential location on patient experiences during treatment.
 
-Results showed that emotion-focused coping style was positively associated with higher stress and pain levels, while task-focused coping style was negatively associated with stress levels. Stress levels fully mediated the relationship between emotion-focused coping and pain. Place of residence moderated these relationships - the associations between emotion-focused coping, stress, and pain were stronger for patients residing in small towns compared to those in larger cities.
-
-The findings suggest that an emotion-focused way of coping raises stress levels in lung cancer patients, which in turn increases experiences of pain. This pattern is especially pronounced among patients from rural areas and small towns. In contrast, a task-oriented coping approach is linked to lower stress. Stress acts as a key mechanism explaining how different coping strategies influence pain perception in lung cancer.
-
-The results highlight the importance of psychological interventions aimed at improving coping skills, particularly for rural patients who may have less access to medical resources and support. Shifting from an emotion-focused to a task-oriented coping style could help reduce stress and mitigate pain among lung cancer patients. Further longitudinal research is needed to better understand the impacts of residential location on patient experiences over the course of treatment.
 ### Repository Structure
 ```
 Emotion-Focused-Coping-Style-For-Lung-Cancer/
@@ -217,26 +212,31 @@ For detailed usage instructions, refer to the [usage guide documentation](docs/u
 
 ## Scripts and Notebooks
 
-- `src/data_preprocessing.py`: Script for preprocessing raw data.
-- `src/model_training.py`: Script for training machine learning models.
-- `src/evaluation.py`: Script for evaluating model performance.
-- `notebooks/data_exploration.ipynb`: Jupyter notebook for initial data exploration and visualization.
-- `notebooks/model_analysis.ipynb`: Jupyter notebook for detailed model analysis.
+### 📝 Scripts
+
+- 📄 [`src/data_preprocessing.py`](#srcdatapreprocessingpy): Script for preprocessing raw data.
+- 📄 [`src/model_training.py`](#srcmodel_trainingpy): Script for training machine learning models.
+- 📄 [`src/evaluation.py`](#srcevaluationpy): Script for evaluating model performance.
+
+### 📓 Notebooks
+
+- 📄 [`notebooks/data_exploration.ipynb`](#notebooksdata_explorationipynb): Jupyter notebook for initial data exploration and visualization.
+- 📄 [`notebooks/model_analysis.ipynb`](#notebooksmodel_analysisipynb): Jupyter notebook for detailed model analysis.
 
 For more details on each script and notebook, refer to their respective README files in the `src` and `notebooks` directories.
 
 ## Documentation
 
-- [Project Overview](docs/overview.md)
-- [Data Description](docs/data_description.md)
-- [Model Architecture](docs/model_architecture.md)
-- [Evaluation Metrics](docs/evaluation_metrics.md)
-- [Setup Guide](docs/setup_guide.md)
-- [Usage Guide](docs/usage_guide.md)
-- [Contributing](docs/contributing.md)
-- [License](docs/LICENSE.md)
-- [Acknowledgments](docs/acknowledgments.md)
-- [Troubleshooting](docs/troubleshooting.md)
+- 📝 [Project Overview](docs/overview.md)
+- 🗂️ [Data Description](docs/data_description.md)
+- 🏛️ [Model Architecture](docs/model_architecture.md)
+- 📊 [Evaluation Metrics](docs/evaluation_metrics.md)
+- 🛠️ [Setup Guide](docs/setup_guide.md)
+- 🚀 [Usage Guide](docs/usage_guide.md)
+- 🤝 [Contributing](docs/contributing.md)
+- 📜 [License](docs/LICENSE.md)
+- 🙏 [Acknowledgments](docs/acknowledgments.md)
+- 🛠️ [Troubleshooting](docs/troubleshooting.md)
 
 ## Contributing
 
